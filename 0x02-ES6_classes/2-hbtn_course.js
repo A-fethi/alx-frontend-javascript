@@ -1,6 +1,6 @@
 export default class HolbertonCourse {
   constructor(name, length, students) {
-    if (typeof name === 'string' || typeof length === 'number' || Array.isArray(students)) {
+    if (typeof name === 'string' && typeof length === 'number' && Array.isArray(students)) {
       this._name = name;
       this._length = length;
       this._students = students;
