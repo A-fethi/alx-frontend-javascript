@@ -8,7 +8,7 @@ Array... Array everywhere
 - Typed arrays
 - The Set, Map, and Weak link data structures
 
-## Technologies & Tools:computer:
+## Technologies & Tools :computer:
 
 [![Jest](https://img.shields.io/badge/≡-Jest-C21325?logo=Jest&style=flat-square&labelColor=282828&logoColor=C21325)](https://jestjs.io/)
 [![Git](https://img.shields.io/badge/≡-Git-F05032?logo=git&style=flat-square&labelColor=282828)](https://git-scm.com/)
@@ -23,7 +23,7 @@ Array... Array everywhere
 
 ---
 
-## Resources:books:
+## Resources :books:
 
 Read or watch:
 
@@ -35,7 +35,7 @@ Read or watch:
 
 ---
 
-## Requirements:hammer:
+## Requirements :hammer:
 
 - Ubuntu 18.04 LTS using NodeJS 12.22.x
 - Jest Testing Framework
@@ -69,7 +69,7 @@ $ npm install
 
 ---
 
-## Files:card_file_box:
+## Files :card_file_box:
 
 ### [0. Basic list of objects](./0-get_list_students.js)
 
