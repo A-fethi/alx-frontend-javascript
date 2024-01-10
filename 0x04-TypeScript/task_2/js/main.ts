@@ -49,3 +49,31 @@ function createEmployee(salary) {
 console.log(createEmployee(200));
 console.log(createEmployee(1000));
 console.log(createEmployee('$500'));
+
+function isDirector(employee) {
+  return employee instanceof Director;
+}
+
+function executeWork(employee) {
+  if (isDirector(employee)) {
+    console.log(employee.workDirectorTasks());
+  } else {
+    console.log(employee.workTeacherTasks());
+  }
+}
+
+executeWork(createEmployee(200));
+executeWork(createEmployee(1000));
+
+type Subjects = 'Math' | 'History';
+
+function teachClass(todayClass: Subjects): string {
+  if (todayClass === 'Math') {
+    return 'Teaching Math';
+  } else (todayClass === 'History') {
+    return 'Teaching History';
+  }
+}
+
+console.log(teachClass('Math'));
+console.log(teachClass('History'));
